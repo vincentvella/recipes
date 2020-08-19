@@ -1,0 +1,16 @@
+{
+  "name": "recipes",
+  "version": "1.0.0",
+  "description": "An Experiment in Vue",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^11.3.2"
+  }
+}
