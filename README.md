@@ -12,5 +12,5 @@ Idea taken from this [blog](https://www.blog.duomly.com/vue-js-project-ideas-for
 >Here you could practice using the Vue Router for displaying the recipes by id. 
 
 ### Step By Step
-Time to get the CLI installed? No the Vue readme actually doesn't have any kind of suggestion to use their CLI (in fact they warn against doing it... so I guess we'll try it their way?). Creating index.html file w/vim brb.
+Time to get the CLI installed? No the Vue readme actually doesn't have any kind of suggestion to use their CLI (in fact they warn against doing it... so I guess we'll try it their way?). Creating index.html file w/vim brb. Little confusing off the get go still seeing as how I had to look up how to properly start a Vue project from scratch however I've got hello world so I'll get started on the next part which is fumbling through some syntax to get a appbar rendered.
 
