@@ -20,3 +20,5 @@ The conditional rendering (still going through the Vue docs) is straightforward 
 Component model is slick, so far it looks like it's a solid component model that would scale, I'm interested how you'd be able to work typescript into the template syntax of Vue. Looks like Vue docs expand on it a bit but I'm going to experiment with it a bit more.
 
 At this point, having a handle of the syntax a bit I decided to launch a project using the CLI. At least at that point I'd be able to use babel and serve the project properly. After generating the project I wanted to set up some routing and it sounds like vue-router is the closest thing to React router.
+
+After using the CLI to add the router (which was a way better experience than the Vue docs made it sound) I was ready to add the first route to the screen which is the recipe list.
