@@ -14,4 +14,8 @@ Idea taken from this [blog](https://www.blog.duomly.com/vue-js-project-ideas-for
 ### Step By Step
 Time to get the CLI installed? No the Vue readme actually doesn't have any kind of suggestion to use their CLI (in fact they warn against doing it... so I guess we'll try it their way?). Creating index.html file w/vim brb. Little confusing off the get go still seeing as how I had to look up how to properly start a Vue project from scratch however I've got hello world so I'll get started on the next part which is fumbling through some syntax to get a appbar rendered.
 
-Learned a bit about how Vue's reactivity between data and the DOM are linked and started learning about directives. React has a very different reactivity model so it's interesting to see a different model still written with JS. 
+Learned a bit about how Vue's reactivity between data and the DOM are linked and started learning about directives. React has a very different reactivity model so it's interesting to see a different model still written with JS.
+The conditional rendering (still going through the Vue docs) is straightforward as are loops.
+
+Component model is slick, so far it looks like it's a solid component model that would scale, I'm interested how you'd be able to work typescript into the template syntax of Vue. Looks like Vue docs expand on it a bit but I'm going to experiment with it a bit more.
+
