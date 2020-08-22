@@ -1,10 +1,15 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <div id="nav-content">
+        <h2>VueMyRecipes</h2>
+        <router-link to="/">Home</router-link>
+        <router-link to="/add">Add</router-link>
+      </div>
     </div>
-    <router-view/>
+    <div id="nav-view">
+      <router-view/>
+    </div>
   </div>
 </template>
 
@@ -13,20 +18,32 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
 }
 
 #nav {
-  padding: 30px;
+  background-color: #42b983;
+  margin: -25px -10px;
+  padding: 20px 15px 10px 15px;
+}
+
+#nav h2 {
+  padding: 0 20px 0 10px;
+}
+
+#nav-content {
+  display: inline-flex;
+  align-items: center;
 }
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #ffffff;
+  padding: 10px;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+#nav-view {
+  padding: 15px
 }
+
 </style>
