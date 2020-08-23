@@ -1,5 +1,7 @@
 <template>
-  <RecipeTile v-for="recipe in recipes" v-bind:key="recipe.name" v-bind="recipe" />
+  <div class="list">
+    <RecipeTile v-for="recipe in recipes" v-bind:key="recipe.name" v-bind="recipe" />
+  </div>
 </template>
 
 <script>
@@ -18,3 +20,12 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  align-content: space-between;
+}
+</style>

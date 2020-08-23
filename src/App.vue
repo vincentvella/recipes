@@ -46,4 +46,8 @@
   padding: 15px
 }
 
+body {
+  overflow-x: hidden;
+}
+
 </style>
