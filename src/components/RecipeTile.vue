@@ -1,12 +1,17 @@
 <template>
-  <div>Recipe Renders Here</div>
+  <div>
+    <h2>{{ name }}</h2>
+  </div>
 </template>
 
 <script>
 export default {
   name: 'RecipeTile',
   props: {
-    recipe
+    name: {
+      type: String,
+      required: true,
+    }
   }
 }
 </script>
