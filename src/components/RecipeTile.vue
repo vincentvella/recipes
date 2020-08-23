@@ -1,13 +1,15 @@
 <template>
-  <div class="tile">
-    <img :src=imageURL :width="250" :height="250"/>
-    <div class="tile-content">
-      <div class="tile-text">
-        <h4>{{ name }}</h4>
+  <router-link :to="`/recipe/${id}`">
+    <div class="tile">
+      <img :src=imageURL :width="250" :height="250"/>
+      <div class="tile-content">
+        <div class="tile-text">
+          <h4>{{ name }}</h4>
+        </div>
+        <p>Time: {{ timers.reduce((acc, time) => acc += time, 0) }} minutes</p>
       </div>
-      <p>Time: {{ timers.reduce((acc, time) => acc += time, 0) }} minutes</p>
     </div>
-  </div>
+  </router-link>
 </template>
 
 <script>
@@ -25,12 +27,22 @@ export default {
     timers: {
       type: Array[String],
       required: true,
+    },
+    id: {
+      type: Number,
+      required: true,
     }
   }
 }
 </script>
 
 <style>
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .tile {
   margin: 0 24px 24px 0;
   width: 250px;
@@ -39,6 +51,10 @@ export default {
   transition: 0.3s;
   display: flex;
   flex-direction: column;
+}
+
+.tile:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .tile-content {

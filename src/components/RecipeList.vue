@@ -1,6 +1,6 @@
 <template>
   <div class="list">
-    <RecipeTile v-for="recipe in recipes" v-bind:key="recipe.name" v-bind="recipe" />
+    <RecipeTile v-for="recipe in recipes" v-bind:key="recipe.id" v-bind="recipe" />
   </div>
 </template>
 
