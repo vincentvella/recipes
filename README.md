@@ -22,3 +22,9 @@ Component model is slick, so far it looks like it's a solid component model that
 At this point, having a handle of the syntax a bit I decided to launch a project using the CLI. At least at that point I'd be able to use babel and serve the project properly. After generating the project I wanted to set up some routing and it sounds like vue-router is the closest thing to React router.
 
 After using the CLI to add the router (which was a way better experience than the Vue docs made it sound) I was ready to add the first route to the screen which is the recipe list.
+
+Next step included adding the navbar and learned how the css works in Vue single-file components. Added the home and add routes which will drive the remainder of the recipe app.
+I added the sample data and created a "RecipeList" and a "RecipeTile" component to be used by the list to display the mocked data.
+At this point I'm just going to play around with understanding Vue components a bit more and I'll try to make the Recipe tile a decent abstraction for reuse among all recipes.
+
+
