@@ -34,4 +34,26 @@ I do have to say that so far the form experience built into Vue is WAY better th
 Mind you, this is with zero experience validating the form but I can't imagine that piece of it is that much harder.
 The styling is simple for the components although I'm using self-rolled components for the majority of the project. 
 
+To finish up the project I finished creating the form array for steps (swapping out a textinput for a text field) and wired up the form submission... 
+
+![Proof of Submission](./src/assets/proof.png)
+
+Overall I learned a lot about Vue in this project and probably have a lot more in-depth to look at but I just wanted to get a feel for the framework. Overall pretty pleased with how much of my knowledge from React ports over to Vue outside of the syntax.
+
+Having worked in React's class components definitely prepared me pretty well for the mutability of Vue's VDOM. Additionally the syntax for onclick handling and loops is nicely worked into the framework with use of directives (which I only read towards the end of the project have shorthands.)
+Definitely a good example of MVVM, it was very reactive in the use-case I built and the two-way data bindings kept the overall component structure simple.
+
+TLDR;
+Things I touched on in this deep-dive:
+- No-CLI vs CLI
+- Vue project setup
+- Routing & Route parameters
+- Vue VDOM
+- Vue SYntax
+- Directives
+- Plugins
+- Event Handling
+- List Rendering
+- CSS
+- Form Building
 
