@@ -28,3 +28,10 @@ I added the sample data and created a "RecipeList" and a "RecipeTile" component 
 At this point I'm just going to play around with understanding Vue components a bit more and I'll try to make the Recipe tile a decent abstraction for reuse among all recipes.
 
 Both the recipe tile and the recipe page went down without a hitch and were pretty simple to set up. Dynamic routing worked easily once I realized how to use a directive with that router-link component. From there grabbing the id and finding the recipe in my JSON file was straightforward. Both components could use a bit more TLC in the CSS department but I'm going to move on to the "Add" form.
+
+Added the initial form to at least handle the majority of the text fields and start working out my first array field.
+I do have to say that so far the form experience built into Vue is WAY better than what I've used in React.
+Mind you, this is with zero experience validating the form but I can't imagine that piece of it is that much harder.
+The styling is simple for the components although I'm using self-rolled components for the majority of the project. 
+
+
